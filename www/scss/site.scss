@@ -1,0 +1,29 @@
+
+$primary-color: #333;
+
+body {
+	color: $primary-color;
+}
+
+a {
+	color: $primary-color;
+}
+
+p {
+	
+	a {
+		text-decoration: underline;
+	}
+
+}
+
+.message {
+	border: solid 1px #ccc;
+	padding: 10px;
+	color: #333;
+}
+
+.error {
+	@extend .message;
+	border-color: red;
+}
