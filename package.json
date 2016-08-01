@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp",
-    "install": "gulp"
+    "install": "bash install.sh",
+    "postinstall": "gulp"
   },
   "author": "Haseeb Qureshi",
   "license": "ISC",
@@ -20,6 +21,7 @@
     "gulp-minify": "0.0.13",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
+    "gulp-shell": "^0.5.2",
     "jshint": "^2.9.2"
   }
 }
