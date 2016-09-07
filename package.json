@@ -1,20 +1,17 @@
 {
   "name": "static-development",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Super easy static html development workflow using node.js express and gulp packages.",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "gulp",
-    "install": "bash install.sh",
-    "postinstall": "gulp"
+    "start": "gulp start",
+    "install": "bash install.sh"
   },
   "author": "Haseeb Qureshi",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.14.0"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "express": "^4.14.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
     "gulp-jshint": "^2.0.1",
