@@ -32,11 +32,11 @@ var paths = {
 	images: __dirname + '/frontend/images',
 	fonts: __dirname + '/frontend/fonts',
 	dist: {
-		index: __dirname + '/www',
-		js: __dirname + '/www/js',
-		css: __dirname + '/www/css',
-		images: __dirname + '/www/images',
-		fonts: __dirname + '/www/fonts'
+		index: __dirname + '/s3/www',
+		js: __dirname + '/s3/www/js',
+		css: __dirname + '/s3/www/css',
+		images: __dirname + '/s3/www/images',
+		fonts: __dirname + '/s3/www/fonts'
 	},
 	views: {
 		index: __dirname + '/frontend/views',

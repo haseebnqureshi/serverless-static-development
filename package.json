@@ -1,7 +1,7 @@
 {
-  "name": "static-development",
+  "name": "serverless-static-development",
   "version": "1.0.1",
-  "description": "Super easy static html development workflow using node.js express and gulp packages.",
+  "description": "Super easy static html development workflow using node.js express and gulp packages, deploying to AWS S3 using Serverless Framework.",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp start",
